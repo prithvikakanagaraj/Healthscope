@@ -1,0 +1,2 @@
+# Optional: only for scripts/run_pyspark_analysis.py (needs Java 8/11/17 installed)
+pyspark>=3.5

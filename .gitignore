@@ -1,0 +1,36 @@
+# Environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# Secrets
+.env
+.streamlit/secrets.toml
+# Large / raw data (keep only small samples in Git)
+data/raw/
+data/*.json
+data/*.jsonl
+data/*.gz
+data/*.zip
+nltk_data/
+outputs/
+.DS_Store
+# Additional environment and local database protection
+
+.env.*
+!.env.example
+.streamlit/
+*.db
+*.sqlite
+*.sqlite3
+
+# Build and generated files
+
+build/
+dist/
+*.apk
+*.aab
+.gradle/
+.idea/

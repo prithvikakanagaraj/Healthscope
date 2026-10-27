@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HealthScope</string>
+    <!-- Replace this placeholder with your deployed Streamlit URL before building the APK. -->
+    <string name="app_url">https://YOUR-HEALTHSCOPE-APP.streamlit.app</string>
+</resources>
